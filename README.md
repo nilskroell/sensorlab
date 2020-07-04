@@ -30,11 +30,13 @@
 
 ### Beispiel .spec-Datei
 
+
+
+```
 # -*- mode: python ; coding: utf-8 -*-
 
 block_cipher = None
 
-```
 a = Analysis(['Analysator_Recording\\Aufnahme_PROBE.py'],
              pathex=['C:\\ProgramData\\Anaconda3\\Scripts'],
              binaries=[],
