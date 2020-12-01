@@ -14,7 +14,7 @@
 	2.	Falls Fehlermeldung mit `enum24`: deinstallieren: `pip uninstall -y enum34`
 5.	.spec-Datei spezifizieren
 	1.	Verweise auf externe Dateien im Feld data hinzufügen
-		1.	Dateien: `data = ‘Programmordner\\MeineDatei.py‘, ‘zielordner‘), (‘Programmordner\\MeineDatei.txt’, ‘zielordner’)]`
+		1.	Dateien: `data = [(‘Programmordner\\MeineDatei.py‘, ‘zielordner‘), (‘Programmordner\\MeineDatei.txt’, ‘zielordner’)]`
 			Falls sich Datei auf gleicher Ebene wie .EXE sein soll, dann `zielordner = ‘.’` setzen (WICHTIG: `\\` statt `\` verwenden)
 		2.	Gesamte Ordnerinhalte
 			`data = [(‘Programmordner\\MeinOrdner’, ‘MeinOrdner’)]`
