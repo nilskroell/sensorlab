@@ -26,6 +26,7 @@
 		`hiddenimports=['pkg_resources.py2_warn', 'sklearn.neighbors.quad_tree', 'sklearn.tree._utils', 'sklearn.neighbors.typedefs', 'sklearn.utils._cython_blas']`
 	4.	Ggf. weitere Anpassungen treffen: Im Bereich EXE: `console=False`, falls keine Konsole angezeigt werden soll.
 	5.	Falls Fehlermeldung `pyimod03_importers.py line 623 in exec_module`: `pyinstaller -F --paths C:\Users\lixib\Desktop\Code\venv\Lib\site-packages\scipy\extra-dll pdf_num_detect.py`
+6.	Programmerstellung ausführen: `pyinstaller MeinProgramm.spec`
 
 
 ### Beispiel .spec-Datei
